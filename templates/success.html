@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block titre %}success{% endblock %}
+
+{% block contenu %}
+<body class="fitness">
+    <div>
+        <h1>⁜</h1>
+        <h1>Success</h1>
+        <br>
+        <h1 class="text-center">Merci pour votre feedback !</h1>
+        <p>vos informations et vos fichiers ont été bien recu !</p>
+    </div>
+    <br>
+    <a href="{{url_for('pin.accueil')}}" class="btn btn-success">Accueil</a>
+</body>
+{% endblock %}
